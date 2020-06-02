@@ -88,6 +88,6 @@ if ($branchName.Trim() -eq $branch.Trim())
 }
 else
 {
-  Write-Host "DevOps: The branch, ""$branch"" could not be found on ""$remote""." - ForegroundColor Yellow;
-  Write-Host "DevOps: Check that the spelling and remote are correct, or create a new branch." - ForegroundColor Yellow; 
+  Write-Host "DevOps: The branch, ""$branch"" could not be found on ""$remote""." -ForegroundColor Yellow;
+  Write-Host "DevOps: Check that the spelling and remote are correct, or create a new branch." -ForegroundColor Yellow;
 }
